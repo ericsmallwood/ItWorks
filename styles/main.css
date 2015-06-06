@@ -1,0 +1,56 @@
+.small-text {
+    font-size: x-small;
+}
+
+
+.floatlf{
+    float: left;
+}
+
+.clear-width{
+    width: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.about-section{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    background: url(../images/lowerbg.png) no-repeat bottom center scroll;
+    background-color: lightgray;
+}
+
+.blackbg{
+    background-color: #000;
+}
+
+.section-text{
+    width: 60%;
+}
+
+.disclaimer-text{
+    font-size: xx-small;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-logo {
+    width: 40%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.nav-link{
+    font-size: xx-small;
+}
+
+.nav-link-section{
+    padding-right: 10px;
+    float: right;
+}
