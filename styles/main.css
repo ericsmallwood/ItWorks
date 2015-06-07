@@ -31,8 +31,7 @@
 }
 
 .section-text{
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
     width: 60%;
 }
 
