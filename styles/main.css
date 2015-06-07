@@ -9,6 +9,7 @@
 
 a{
     color: #009900;
+    font-weight: bold;
 }
 .floatlf{
     float: left;
@@ -24,7 +25,7 @@ a{
     width: 70%;
 }
 .section-back{
-    background: lightgray url(../images/lowerbg.png) no-repeat scroll bottom center;
+    /*background: lightgray url(../images/lowerbg.png) no-repeat scroll bottom center;*/
 }
 
 .section-text{
@@ -44,6 +45,10 @@ a{
     width: 100%;
     padding: 100px 0;
     background-color: darkgreen;
+    background-image: url("../images/floral-387197_6402-yellow-left.png"), url("../images/floral-387197_6402-yellow-right.png");
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 20% auto;
     color: #f5f5f5;
 }
 
@@ -71,7 +76,7 @@ a{
 }
 
 .nav-logo {
-    width: 50%;
+    width: 80%;
     height: auto;
     padding-top: 10px;
 }
@@ -96,7 +101,7 @@ a{
     /* styling */
     background-color:#333;
 
-    width:675px;
+    width:800px;
     min-height:200px;
     border:1px solid #666;
 
