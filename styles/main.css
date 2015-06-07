@@ -2,7 +2,9 @@
     font-size: x-small;
 }
 
-
+a{
+    color: #009900;
+}
 .floatlf{
     float: left;
 }
@@ -31,8 +33,7 @@
 }
 
 .section-text{
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
     width: 60%;
 }
 
@@ -55,4 +56,34 @@
 .nav-link-section{
     padding-right: 10px;
     float: right;
+}
+
+.simple_overlay {
+
+    /* must be initially hidden */
+    display:none;
+
+    /* place overlay on top of other elements */
+    z-index:10000;
+
+    /* styling */
+    background-color:#333;
+
+    width:675px;
+    min-height:200px;
+    border:1px solid #666;
+
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+
+.simple_overlay .close {
+    color: #99cc33;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
 }

@@ -3,5 +3,23 @@
  */
 
 $(document).ready(function(){
-    swfobject.embedSWF("https://www.youtube.com/v/5vuKg7UB6AM%26hl=en_US%26fs=1%26autoplay=1", 'video-container', '516', '315', '9.0.0');
+    var videoModal = $('#video-modal').overlay({
+        expose: {
+            color: 'black',
+            loadSpeed: 200,
+            opacity: 0.85
+        },
+        closeOnClick: true,
+        api: true
+    });
+
+    $('.video-link').click(function() {
+        videoModal.load();
+
+        var videoUrl = $(this).attr('href');
+
+        swfobject.embedSWF(videoUrl, 'video-container', '425', '344', '9.0.0');
+
+        return false;
+    });
 });
