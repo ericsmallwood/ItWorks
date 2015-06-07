@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         var videoUrl = $(this).attr('href');
 
-        swfobject.embedSWF(videoUrl, 'video-container', '425', '344', '9.0.0');
+        swfobject.embedSWF(videoUrl, 'video-container', '741', '600', '9.0.0');
 
         return false;
     });
