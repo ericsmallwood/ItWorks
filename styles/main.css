@@ -65,6 +65,18 @@ a{
     color: #000000;
 }
 
+.contact-section{
+    width:100%;
+    padding: 100px 0;
+    background: ghostwhite;
+    color: #000000;
+}
+
+#emailMessageArea{
+    display: flex;
+    align-items: center;
+}
+
 .blackbg{
     background-color: #000;
 }
