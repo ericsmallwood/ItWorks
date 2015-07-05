@@ -3,6 +3,14 @@
  */
 
 $(document).ready(function(){
+    // popup overlay for images
+    $("img[rel]").overlay({
+        expose: {
+            color: 'black',
+            loadSpeed: 200,
+            opacity: 0.75
+        }
+    });
 
     //modal video functionality
     var videoModal = $('#video-modal').overlay({

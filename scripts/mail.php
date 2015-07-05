@@ -1,4 +1,5 @@
 <?php
+
 require('../thirdparty/phpmailer/PHPMailerAutoload.php');
 
 if(is_ajax()){

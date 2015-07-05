@@ -5,6 +5,11 @@
 .results-img{
     width: 50%;
     height: auto;
+
+}
+
+.row-margin{
+    margin: 5px;
 }
 
 a{
@@ -55,6 +60,21 @@ a{
 .how-section a{
     text-decoration: underline;
     color: gold;
+}
+
+.beforeafter-section{
+    width: 100%;
+    padding: 100px 0;
+    background: white url("../images/abstract_transparent.png") no-repeat center;
+    background-size: 100%;
+    color: #000000;
+}
+
+.beforeandafterpic{
+    width: 100%;
+    height: auto;
+    border: black 3px solid;
+    cursor: pointer;
 }
 
 .shop-section{
@@ -121,12 +141,32 @@ a{
     -webkit-box-shadow: 0 0 90px #000;
 }
 
-.simple_overlay .close {
+
+.simple_overlay .close{
     color: #99cc33;
     position:absolute;
-    right:-15px;
-    top:-15px;
     cursor:pointer;
     height:35px;
     width:35px;
+    right:-15px;
+    top:-15px;
+}
+
+.picmodal {
+    display: none;
+    z-index: 10000;
+    background-color: #333;
+    border:1px solid #666;
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+
+.picmodal .close{
+    color: #99cc33;
+    position:absolute;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+    right:-16px;
+    top:-25px;
 }
