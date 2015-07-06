@@ -39,7 +39,7 @@ a{
 }
 
 .about-section{
-    background: lightgray url(../images/lowerbg.png) no-repeat scroll bottom center;
+    background: lightgray url(../images/lowerbg.png) no-repeat fixed bottom center;
     width: 100%;
     padding: 100px 0;
     text-align: center;
@@ -65,9 +65,22 @@ a{
 .beforeafter-section{
     width: 100%;
     padding: 100px 0;
-    background: white url("../images/abstract_transparent.png") no-repeat center;
-    background-size: 100%;
+    background: rgba(255, 255, 255,1.00) url("../images/abstract_colors_eola_darkgray.jpg") no-repeat fixed;
+
     color: #000000;
+}
+
+.beforeafter-subtitle{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #009900;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0 darkgray;
+ }
+
+.beforeafter-subtitle h4{
+    padding: 15px;
+    color: white;
 }
 
 .beforeandafterpic{
