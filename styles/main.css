@@ -71,15 +71,16 @@ a{
 }
 
 .beforeafter-subtitle{
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 50%;
     background-color: #009900;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px 0 darkgray;
+    border: darkgreen 2px solid;
+    box-shadow: 3px 3px 5px 0 black;
  }
 
 .beforeafter-subtitle h4{
-    padding: 15px;
+    margin: 15px;
     color: white;
 }
 
